@@ -38,7 +38,13 @@ function App() {
               <p className="text-lg mb-4 overflow-y-auto" style={{ maxHeight: "200px" }}> Minga es una plataforma que permite a sus usuarios ver diferentes mangas y acceder a su contenido para
                 lectura. Da opciones al usuario para añadir mangas favoritos. Para usuarios administradores, pueden gestionar el contenido de
                 nuevos mangas o modificar mangas existentes. La aplicacion se desarrollo con el stack de mern, y usando metodologias agiles SCRUM. </p>
-              <a href="https://minga-0ybw.onrender.com" target='blank' className="text-blue-500 hover:underline">Ver proyecto</a>
+              <div className=' flex justify-between'>
+                <a href="https://minga-0ybw.onrender.com" target='blank' className="text-blue-500 hover:underline">Ver proyecto</a>
+                <div className='flex flex-col'>
+                  <a href="https://github.com/ctorresv/Minga-front" target='blank' className="text-blue-500 hover:underline">Git hub front</a>
+                  <a href="https://github.com/ctorresv/Minga-Back" target='blank' className="text-blue-500 hover:underline">Git hub back</a>
+                </div>
+              </div>
             </div>
             <div className="bg-white rounded-lg shadow-md p-6">
               <h3 className="text-xl font-semibold mb-2">Express Buy</h3>
@@ -46,7 +52,13 @@ function App() {
                 realizar un procesode comprar de productos y el seguimiento del estado de su compra. Tambien cuenta con opciones para usuarios
                 administradores para la gention de productos, promociones y ordenes. El proyecto se llevo acabo mediante metodologias agiles y
                 usando el stack de MERN</p>
-              <a href="https://expressbuy-x0lj.onrender.com" target='blank' className="text-blue-500 hover:underline">Ver proyecto</a>
+              <div className=' flex justify-between'>
+                <a href="https://expressbuy-x0lj.onrender.com" target='blank' className="text-blue-500 hover:underline">Ver proyecto</a>
+                <div className='flex flex-col'>
+                  <a href="https://github.com/ctorresv/ExpressBuy-front" target='blank' className="text-blue-500 hover:underline">Git hub front</a>
+                  <a href="https://github.com/ctorresv/ExpressBuy-back" target='blank' className="text-blue-500 hover:underline">Git hub back</a>
+                </div>
+              </div>
             </div>
             <div className="bg-white rounded-lg shadow-md p-6">
               <h3 className="text-xl font-semibold mb-2">Deteccion temprana somnolencia</h3>
@@ -60,12 +72,23 @@ function App() {
                 garantizar una respuesta rápida y efectiva por parte del conductor. El enfoque principal del proyecto fue la detección temprana
                 del cansancio del conductor, utilizando herramientas de análisis de video y desarrollando una interfaz de alerta intuitiva y
                 eficaz.</p>
-              <a href="https://github.com/ctorresv/deteccion-temprana-somnolencia" className="text-blue-500 hover:underline">Ver proyecto</a>
+              <a href="https://github.com/ctorresv/deteccion-temprana-somnolencia" className="text-blue-500 hover:underline">Ver Git Hub</a>
             </div>
             <div className="bg-white rounded-lg shadow-md p-6">
-              <h3 className="text-xl font-semibold mb-2">ArtGram</h3>
-              <p className="text-lg mb-4 overflow-y-auto" style={{ maxHeight: "200px" }}></p>
-              <a href="#" className="text-blue-500 hover:underline">Ver proyecto</a>
+              <h3 className="text-xl font-semibold mb-2">ArtGram (en desarrollo) </h3>
+              <p className="text-lg mb-4 overflow-y-auto" style={{ maxHeight: "200px" }}>
+                Estoy trabajando en ArtGram, una plataforma web multifuncional. Esta plataforma fusiona las características de las redes sociales
+                y un Sistema de Gestión de Contenidos (CMS). Los usuarios tendrán la posibilidad de compartir imágenes o videos, redactar blogs,
+                explorar un mercado virtual y disfrutar de muchas otras funciones, todo en un solo lugar. De esta manera, ArtGram proporciona una
+                experiencia completa e integral a sus usuarios.
+              </p>
+              {/* <div className=' flex justify-between'>
+                <a href="" target='blank' className="text-blue-500 hover:underline">Ver proyecto</a>
+                <div className='flex flex-col'>
+                  <a href="" target='blank' className="text-blue-500 hover:underline">Git hub front</a>
+                  <a href="" target='blank' className="text-blue-500 hover:underline">Git hub back</a>
+                </div>
+              </div> */}
             </div>
 
           </div>
